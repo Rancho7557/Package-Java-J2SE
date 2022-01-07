@@ -1,0 +1,19 @@
+package javacode;
+
+public class data_variable {
+	
+	int a=10; //instance variable
+	static double b=20.5; //static variable
+
+	public static void main(String[] args) {
+		boolean c=true; //local variable
+		
+		data_variable d=new data_variable();
+		System.out.println(d.a);
+		System.out.println(b);
+		System.out.println(c);
+		
+
+	}
+
+}

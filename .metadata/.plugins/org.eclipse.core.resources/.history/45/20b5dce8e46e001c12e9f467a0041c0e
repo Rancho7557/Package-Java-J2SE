@@ -1,0 +1,45 @@
+package javacode;
+
+public class Defualt_Constructor {
+	
+	int a; String b; boolean c;
+		
+	Defualt_Constructor() //default constructor
+		{
+			a = 1080; b ="TusDev oPPS "; c = true;
+		}
+	void Display()
+	{
+		System.out.println(a + "  "+ b +" "+ c);
+	}
+	
+	
+	public class dnmobj 
+	{
+		int x; String y; boolean z; 
+		
+		dnmobj()
+		{
+		x = 987037; y = "aS pER cOMPANY rULE"; z = true;
+		}
+		void Salary()
+		{
+			System.out.println(x + "  "+ y +" "+ z);
+		}
+	 
+	
+
+	public static void main(String[] args) {
+		 
+		Defualt_Constructor rom = new Defualt_Constructor();
+		
+		rom.Display();
+		
+		dnmobj com = new dnmobj();
+		
+		com.Salary();
+		
+	}
+	}
+
+}

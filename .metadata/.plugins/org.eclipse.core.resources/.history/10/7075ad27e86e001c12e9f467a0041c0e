@@ -1,0 +1,27 @@
+package javacode;
+
+public class Parameter_constructor {
+	
+
+		int x, y;
+		Parameter_constructor  (int a, int b) // Parameterized Constructor;
+	    {
+		 x = a; y = b;
+	    }
+	    void Screen()
+	    {
+		  System.out.println(x +" "+ y);
+	    }
+	
+	class vittle
+	{
+		
+	}
+	
+	public static void main(String[] args) {
+		 
+		Parameter_constructor r = new  Parameter_constructor(100, 1000);
+		r.Screen();
+	}
+
+}

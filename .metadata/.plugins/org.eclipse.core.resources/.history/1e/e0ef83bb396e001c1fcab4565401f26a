@@ -1,0 +1,19 @@
+package javacode;
+
+public class Incre_Decre_op {
+
+	public static void main(String[] args) {
+		 
+		int a = 10;
+		
+		System.out.println(a--);// POST DECREMENT
+		
+		System.out.println(--a);// PRE DECREMENT
+		
+		System.out.println(a++);// POST INCREMENT
+		
+		System.out.println(++a);// PRE INCREMENT
+
+	}
+
+}

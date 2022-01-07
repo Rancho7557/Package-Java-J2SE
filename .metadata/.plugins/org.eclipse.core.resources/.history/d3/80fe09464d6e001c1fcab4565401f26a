@@ -1,0 +1,13 @@
+package javacode;
+
+public class String_Class {
+
+	public static void main(String[] args) {
+		 String hanuman = "TusDev";
+		int l = hanuman.length();
+		
+		System.out.println(1);
+
+	}
+
+}

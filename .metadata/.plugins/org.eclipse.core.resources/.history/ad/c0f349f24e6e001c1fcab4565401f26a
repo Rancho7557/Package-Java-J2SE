@@ -1,0 +1,28 @@
+package javacode;
+
+public class String_Class {
+
+	public static void main(String[] args) {
+		String com = new String("TusDev for web");
+		String hanuman = "TusDev for web";
+		
+		if(com == hanuman)
+		{
+			System.out.println("Both are some key word use in syntax java");
+		}
+		else
+		{
+			System.out.println("Not Equal");
+		}
+		 
+		
+		int l = hanuman.length();
+		
+		System.out.println(l); //it for length
+		
+		System.out.println(hanuman.toLowerCase()); // it is for Lower String
+		System.out.println(hanuman.toUpperCase()); // it is for Upper String
+
+	}
+
+}

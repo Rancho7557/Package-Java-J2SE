@@ -1,0 +1,25 @@
+package javacode;
+
+public class Super_Keyword {
+	
+		int a = 10;
+	}
+	class B extends Super_Keyword
+	{
+		int a = 20; 
+		void show()
+		{
+			System.out.println(a);
+		}
+	}
+	class Test
+	{
+
+	public static void main(String[] args) {
+		 
+     B r = new B();
+     r.show();
+	}
+
+}
+

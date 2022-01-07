@@ -1,0 +1,28 @@
+package javacode;
+
+public class Defualt_Constructor {
+	
+	int a; String b; boolean c;
+		
+	Defualt_Constructor() //default constructor
+		{
+			a = 1080; b ="TusDev oPPS "; c = true;
+		}
+	void Display()
+	{
+		System.out.println(a + "  "+ b +" "+ c);
+	}
+	public class dnmobj
+	{
+		 
+	}
+	
+
+	public static void main(String[] args) {
+		 
+		Defualt_Constructor rom = new Defualt_Constructor();
+		
+		rom.Display();
+	}
+
+}
